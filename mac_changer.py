@@ -17,7 +17,7 @@ print("---------------------by 0x48iffy\n\n")
 
 def get_arguments():
 	parser = optparse.OptionParser()
-	parser.add_option("-i","--interface", dest="interface", help="choose the wchich mac address to be changed")
+	parser.add_option("-i","--interface", dest="interface", help="choose the mac address to be changed")
 	parser.add_option("-m","--mac", dest="new_mac", help="new MAC address to be assigned")
 	(options,arguments)=parser.parse_args()
 	if not options.interface:
